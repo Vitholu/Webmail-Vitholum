@@ -1,7 +1,7 @@
 $icon-black-color: #231f20;
 
 .header-container {
-	padding: top;
+	padding-top: 0.5rem;
 }
 
 .header.wrapper {
@@ -17,7 +17,8 @@ $icon-black-color: #231f20;
 .search-bar {
 	position: relative;
 	width: 31.25rem;
-	height: 2.85rem;
+	height: 2.5rem;
+	border-radius: 23px;
 	background-color: #fff;
 }
 
@@ -26,6 +27,20 @@ $icon-black-color: #231f20;
 	cursor: pointer;
 	color: $icon-black-color;
 	background-color: #fff;
-	top: 25%;
+	top: 21%;
 	left: 92%;
+}
+
+.profile-icon {
+	position: relative;
+}
+
+.profile-icon > span {
+	position: absolute;
+	cursor: pointer;
+	border-radius: 100%;
+	padding: 0.25rem;
+	top: -1rem;
+	color: $icon-black-color;
+	background-color: #fff;
 }
